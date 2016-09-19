@@ -38,7 +38,6 @@ public class BankAccount {
 		if (amount > accountBalance) {
 			// there are not enough funds in the account
 			System.out.println("You have Insufficient Balance. Transaction cancelled.");
-			;
 		}
 
 		else {
